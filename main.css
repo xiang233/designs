@@ -10,7 +10,7 @@ body{
   display:block;width:1005px;
   background-color: rgba(237, 222, 218,1);
 }header{
-  display:block;height:782px;
+  display:block;height:800px;
   background:url("backup.png");background-size:100%;background-repeat:no-repeat;
   box-shadow:100px 100px 60px 40px black;
   border:outset rgb(223,223,223) 7px;
@@ -75,9 +75,9 @@ body{
   display:block;margin-bottom:100px;letter-spacing:30px;font-size:50px;
 }
 .sale{
-  display:block;position:relative;top:-600px;
+  position:relative;top:-670px;
   font-family:Nanum Gothic Coding;
-  background-color:rgb(234,219,214);
+  background-color:rgb(236,222,217);
 }.sale .second,.sale .fourth{
   width:440px;width:250px;
 }.sale img{
@@ -94,8 +94,10 @@ body{
   font-family:"Libre Barcode 39 Extended Text";font-weight:bold;font-size:50px;
 }.item-details{
   position:relative;top:-300px;
-}.sale .first,.sale .third{
+}
+.sale .first,.sale .third{
   color:black;-webkit-transform: skewY(-30deg); 
+
 }.sale .second,.sale .fourth{
   padding-left:120px;position:relative;top:100px;
 }.sale .fourth .item-details{
@@ -114,27 +116,30 @@ body{
 
 
 .user-tips{
-  position:relative;top:-500px;
-  display:block;height:500px;padding:70px;font-family:"Nanum Gothic Coding";
+  position:relative;
+  top:-1000px;
+  display:block;height:600px;padding:70px;font-family:"Nanum Gothic Coding";
   background-image:url("notepad.png");background-repeat:no-repeat;background-size:1000px 500px;
-}.user-tips .section-content {
-  display: block;padding-bottom:65px;
-  background-image:url("lol.png");background-size:400px 400px;background-repeat:no-repeat;background-position:right;
-}aside p{
-  width:600px;
-  font-size:22px;
 }
 
 
 .site-links{
-  display:block;position:relative;top:-500px;
-  font-family:"Press Start 2P";color:black;font-weight:bold;
+  display:block;position:relative;top:-1620px;
+  padding-bottom:5px;font-family:"Press Start 2P";color:black;font-weight:bold;
   background-image:url("bottom.png");background-repeat:no-repeat;
 }.copyright{
-  padding-left:400px;font-size:18px;margin-top:10px;
+  padding-left:400px;font-size:18px;padding-top:5px;
 }.site-links a{
   visibility:hidden;
 }.footer-section{
-  display:none;
+  position:relative;top:-9000px;
+  visibility:hidden;
 }
+
+
+
+
+  
+
+  
 
